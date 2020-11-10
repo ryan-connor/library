@@ -1,0 +1,53 @@
+#container {
+    position: relative;
+    border: solid 5px black;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bookCard {
+    height: 100px;
+    border: solid 1px black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 5px auto auto auto;
+}
+
+
+.inputForm {
+    width: 200px;
+    border: solid 5px black;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    text-align: center;
+}
+
+.inputForm * {
+    margin: 2px;
+}
+
+#formPopup {
+    display: none;
+    position: relative;
+    margin: auto;
+}
+
+#openForm {
+    position: relative;
+    margin: 5px auto 5px auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bookButton {
+    margin: 1px;
+    width: auto;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+Intro JavaScript project to create a simple library that can add/remove books and display them to the user.
